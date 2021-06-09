@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-07T18:35:11 IST" name="Suite" finished-at="2021-06-07T18:35:30 IST" duration-ms="18992">
+    <groups>
+    </groups>
+    <test started-at="2021-06-07T18:35:11 IST" name="Test" finished-at="2021-06-07T18:35:30 IST" duration-ms="18992">
+      <class name="com.githubAutomation.testCases.LandingPageTest">
+        <test-method is-config="true" signature="browserinitialization(java.lang.String)[pri:0, instance:com.githubAutomation.testCases.LandingPageTest@f381794]" started-at="2021-06-07T18:35:11 IST" name="browserinitialization" finished-at="2021-06-07T18:35:19 IST" duration-ms="7781" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserinitialization -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.githubAutomation.testCases.LandingPageTest@f381794]" started-at="2021-06-07T18:35:19 IST" name="setup" finished-at="2021-06-07T18:35:19 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyingLandingPage()[pri:1, instance:com.githubAutomation.testCases.LandingPageTest@f381794]" started-at="2021-06-07T18:35:19 IST" name="verifyingLandingPage" description="Verifying whether Landing page is loaded or not" finished-at="2021-06-07T18:35:19 IST" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingLandingPage -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.githubAutomation.testCases.LandingPageTest@f381794]" started-at="2021-06-07T18:35:19 IST" name="setup" finished-at="2021-06-07T18:35:19 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyingRepoResults()[pri:2, instance:com.githubAutomation.testCases.LandingPageTest@f381794]" started-at="2021-06-07T18:35:19 IST" name="verifyingRepoResults" description="Verfiying whether we get the results or not with given keyword" finished-at="2021-06-07T18:35:20 IST" duration-ms="776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingRepoResults -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.githubAutomation.testCases.LandingPageTest@f381794]" started-at="2021-06-07T18:35:20 IST" name="setup" finished-at="2021-06-07T18:35:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validatingRepository()[pri:3, instance:com.githubAutomation.testCases.LandingPageTest@f381794]" started-at="2021-06-07T18:35:20 IST" name="validatingRepository" description="Opening the Repository and validating whether repo is opened or not" finished-at="2021-06-07T18:35:21 IST" duration-ms="1380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingRepository -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.githubAutomation.testCases.LandingPageTest@f381794]" started-at="2021-06-07T18:35:21 IST" name="setup" finished-at="2021-06-07T18:35:21 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyingStar()[pri:4, instance:com.githubAutomation.testCases.LandingPageTest@f381794]" started-at="2021-06-07T18:35:21 IST" name="verifyingStar" description="Selecting the star by signing and verfiying the start is selected" finished-at="2021-06-07T18:35:24 IST" duration-ms="2761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingStar -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.githubAutomation.testCases.LandingPageTest@f381794]" started-at="2021-06-07T18:35:24 IST" name="setup" finished-at="2021-06-07T18:35:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyingUnstar()[pri:5, instance:com.githubAutomation.testCases.LandingPageTest@f381794]" started-at="2021-06-07T18:35:24 IST" name="verifyingUnstar" description="validing whether star is unselected or not" finished-at="2021-06-07T18:35:24 IST" duration-ms="307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingUnstar -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.githubAutomation.testCases.LandingPageTest@f381794]" started-at="2021-06-07T18:35:24 IST" name="setup" finished-at="2021-06-07T18:35:24 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyingFileSearchField()[pri:6, instance:com.githubAutomation.testCases.LandingPageTest@f381794]" started-at="2021-06-07T18:35:24 IST" name="verifyingFileSearchField" description="Validating whether searched file  is opened or not" finished-at="2021-06-07T18:35:26 IST" duration-ms="2085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingFileSearchField -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.githubAutomation.testCases.LandingPageTest@f381794]" started-at="2021-06-07T18:35:26 IST" name="tearDown" finished-at="2021-06-07T18:35:30 IST" duration-ms="3739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.githubAutomation.testCases.LandingPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
