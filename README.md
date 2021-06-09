@@ -4,8 +4,11 @@
 In this framework , Page object model design pattern is used and we can run the test cases in cross broswers and cross platforms
 
 Language : Java
+
 Libraries : Selenium
+
 Unit Framework : TestNG
+
 Build Automation Tool: Maven
 
 TestNG listeners are used to provide the status of test cases
