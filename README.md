@@ -21,6 +21,6 @@ How to execute the test cases ?
 
     <parameter name = "browserName" value="firefox"/>
     
-3.save the file and right click ---> Run As ---> TestNG suite then all test cases will execute
+ 3. Save the file and right click ---> Run As ---> TestNG suite then all test cases will execute
     
 
